@@ -1,10 +1,9 @@
-import './App.css';
-import CarouselContainer from './component/CarouselContainer';
+import Flags from "./component/Flags";
 
 function App() {
   return (
-    <div className="App">
-      <CarouselContainer />
+    <div className="d-flex justify-content-center align-items-center">
+     <Flags/>
     </div>
   );
 }
